@@ -1,8 +1,60 @@
 html {
   text-size-adjust: 100%;
+  background-color: tan;
 }
 
 body {
   margin: 0;
   font: 16px / 1 sans-serif;
+}
+
+section.header {
+  background-color: lightgrey;
+  border-top-style: solid;
+  border-color: red;
+  display: flex;
+  justify-content: center;
+  border-radius: 2em;
+
+}
+
+section.header img {
+  width: 20px;
+}
+section.header ul li {
+  color: black;
+  font-size: 20px;
+  display: inline;
+
+}
+section.header ul li:hover {
+  color: red;
+}
+
+section.header2 {
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+}
+
+div.images {
+display: flex;
+flex-direction: column;
+}
+
+section.body {
+  display: flex;
+}
+section.body div{
+  flex:1;
+}
+div.link {
+  text-decoration: underline;
+}
+
+div.link:hover{
+  color: red;
 }
